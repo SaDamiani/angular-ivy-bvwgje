@@ -1,0 +1,9 @@
+<h1>{{ titulo }}</h1>
+<div>
+  <label for="nome">Nome</label>
+  <br />
+  <input type= "text" [(ngModel)]="nome" />
+  <br />
+  <input type="button" value="Salvar" (click)="salvar()" />
+</div>
+<p>{{ nome }}</p>
